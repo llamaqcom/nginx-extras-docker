@@ -1,4 +1,5 @@
-FROM debian:stable-slim
+ARG ARCH=
+FROM ${ARCH}debian:stable-slim
 LABEL maintainer="docker@llamaq.com"
 
 RUN apt-get update \
