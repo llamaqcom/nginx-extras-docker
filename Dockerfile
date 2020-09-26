@@ -1,5 +1,5 @@
 ARG ARCH=
-FROM ${ARCH}debian:stable-slim
+FROM ${ARCH}debian:buster-20200908-slim
 LABEL maintainer="docker@llamaq.com"
 
 RUN apt-get update \
