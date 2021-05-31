@@ -2,6 +2,10 @@
 
 Unofficial dockerized build of nginx-extras - based on debian:stable-slim with run-as user:group support.
 
+Source: https://github.com/llamaqcom/nginx-extras-docker
+
+Docker: https://hub.docker.com/r/llamaq/nginx-extras
+
 ## Usage
 
 Here is a basic snippet to help you get started creating a container.
